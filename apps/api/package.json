@@ -1,7 +1,7 @@
 {
   "name": "api",
   "scripts": {
-    "start": "node -r dotenv/config dist/server.js",
+    "start": "node -r dotenv/config dist/api/index.js",
     "build": "tsc -b",
     "dev": "npm run build && npm run start"
   },

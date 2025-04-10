@@ -1,4 +1,4 @@
-import { UserPayload } from './user';
+import { UserPayload } from './user.ts';
 
 declare global {
   namespace Express {
