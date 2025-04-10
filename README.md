@@ -26,7 +26,7 @@ A full-stack application for creating shortened URLs and tracking their performa
 ## 🛠️ Tech Stack
 
 ### **Frontend**
-- [Next.js 14 (App Router)](https://nextjs.org/)
+- [Next.js 15 (App Router)](https://nextjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Redux Toolkit](https://redux-toolkit.js.org/)
 - [Shadcn UI](https://ui.shadcn.com/)
