@@ -1,0 +1,33 @@
+{
+  "name": "api",
+  "scripts": {
+    "start": "node -r dotenv/config dist/server.js",
+    "build": "tsc -b",
+    "dev": "npm run build && npm run start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@types/cookie-parser": "^1.4.8",
+    "@types/qrcode": "^1.5.5",
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "detect-browser": "^5.3.0",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.13.2",
+    "nanoid": "^5.1.5",
+    "qrcode": "^1.5.4",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.1",
+    "@types/jsonwebtoken": "^9.0.9",
+    "typescript": "^5.8.3"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "@repo/shared",
+  "private": true,
+  "exports": {
+    "./UserSchema": {
+      "types": "./src/schemas/user.schema.ts",
+      "default": "./dist/schemas/user.schema.js"
+    },
+    "./LinkSchema": {
+      "types": "./src/schemas/link.schema.ts",
+      "default": "./dist/schemas/link.schema.js"
+    },
+    "./AnalyticsSchema": {
+      "types": "./src/schemas/analytics.schema.ts",
+      "default": "./dist/schemas/analytics.schema.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
