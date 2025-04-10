@@ -88,7 +88,7 @@ A full-stack application for creating shortened URLs and tracking their performa
 Run both frontend and backend together using Turborepo:
 
 ```bash
-turbo build && npx turbo dev
+turbo build && turbo dev
 ```
 
 Open the app in your browser:  
