@@ -10,7 +10,8 @@
   "license": "ISC",
   "type": "module",
   "dependencies": {
-    "shared": "workspace:*",
+    "@repo/shared": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
     "@types/cookie-parser": "^1.4.8",
     "@types/qrcode": "^1.5.5",
     "bcryptjs": "^3.0.2",
