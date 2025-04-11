@@ -48,7 +48,7 @@ A full-stack application for creating shortened URLs and tracking their performa
 ### ✅ Prerequisites
 - Node.js v18+
 - MongoDB Atlas account or local MongoDB instance
-- `npm` or `yarn` installed
+- `pnpm` or `yarn` installed
 
 ---
 
@@ -62,7 +62,7 @@ A full-stack application for creating shortened URLs and tracking their performa
 
 2. **Install dependencies**:
    ```bash
-   npm install
+   pnpm install
    ```
 
 3. **Environment Setup**  
